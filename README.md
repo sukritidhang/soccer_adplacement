@@ -37,5 +37,5 @@ coordinates.
 3. python3 ad_placement_wo_occl_video.py: Run this script for homography-based warping. Integrates Laplacian Alpha Blending without considering the occlusion. The virtual advert is  placed over the players and the ball.
 4. python3 occl_error_comp.py: Run this script to compute the occlusion error.
 5. In the following folder structure inside ./metric.
-    -python3 consistency_flicker_index_plt.py: Run this script to evalute the consistency over consecutive frames. Analyze temporal consistency using optical flow consistency and flicker index metrics. These metrics help determine whether player movements and overall video dynamics remain unaffected by the inserted advertisement.
-    -python3 ssim_psnr.py: Run this script to evaluate the visual fidelity of our advert insertion framework, between the original and modified video frames
+    - python3 consistency_flicker_index_plt.py: Run this script to evalute the consistency over consecutive frames. Analyze temporal consistency using optical flow consistency and flicker index metrics. These metrics help determine whether player movements and overall video dynamics remain unaffected by the inserted advertisement.
+    - python3 ssim_psnr.py: Run this script to evaluate the visual fidelity of our advert insertion framework, between the original and modified video frames
