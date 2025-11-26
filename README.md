@@ -30,7 +30,7 @@ USA
 
 ### Scripts 
 1. In the following folder structure inside ./polygon selction.
-- python3 datasetvd.py: Run this script to automatically select a geometrically
+    - python3 datasetvd.py: Run this script to automatically select a geometrically
 consistent quadrilateral region inside the penalty area from field calibration
 coordinates.
 2. python3  ad_placement_video.py: Run this script for  homography-based warping. Integrates
